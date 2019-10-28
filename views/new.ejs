@@ -1,0 +1,25 @@
+<% include ./header %>
+
+<div class="ui main text container segment">
+    <div class="ui huge header">New Doge in progress</div>
+    <form class="ui form" action="/blogs" method="POST">
+
+    <div class="field">
+        <label>Give name</label>
+        <input type="text" name="blog[title]" placeholder="title">
+    </div>
+
+    <div class="field">
+        <label>Attach Image</label>
+        <input type="text" name="blog[image]" placeholder="image">
+    </div>
+
+    <div class="field">
+        <label>Add cool story</label>
+        <textarea name="blog[body]" required></textarea>
+    </div>
+            
+    <input class = "ui violet basic button" type="submit">
+</div>
+
+<% include ./footer %>
