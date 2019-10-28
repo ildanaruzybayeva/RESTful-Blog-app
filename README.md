@@ -1,2 +1,2 @@
-# CRUD-Blog-app
-Doge CRUD app using nodejs/express, css/semanticui, mongodb/mongoose
+# RESTful-Blog-app
+Doge RESTful blog style web app using nodejs/express, css/semanticui, mongodb/mongoose
